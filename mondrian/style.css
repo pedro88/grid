@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.frame {
+    display: grid;
+    grid-template-columns: 320px 198px 153px 50px;
+    grid-template-rows: 414px 130px 155px 20px;
+    column-gap: 9px;
+    row-gap: 9px;
+    background-color: black;
+}
+
+.leftTop {
+    background-color: red;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.rightTop {
+    background-color: grey;
+    grid-column: 2/5;
+    grid-row: 1/2;
+}
+
+.leftMiddle {
+    background-color: grey;
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+.middleMiddle {
+    background-color: grey;
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+.rightMiddle {
+    background-color: blue;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.leftBottom {
+    background-color: grey;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.yellowBottom {
+    background-color: yellow;
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.blackBottom {
+    background-color: black;
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+.rightLast {
+    background-color: grey;
+    grid-column: 4/5;
+    grid-row: 3/5;
+}
